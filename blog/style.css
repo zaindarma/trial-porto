@@ -165,5 +165,53 @@ nav .right-nav .icon {
 
     .material-symbols-outlined:hover {
         color: #d12038;
-    }    
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .blog .blog-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog .blog-form {
+        display: flex;
+        order: -1;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .blog .blog-list .blog-list-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog .blog-list .blog-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog .blog-list .blog-image img {
+        height: auto;
+        width: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .blog .blog-list .blog-content {
+        margin: 0;
+        padding-inline: 8px;
+    }
+
+    .blog .blog-content p {
+        display: flex;
+        text-align: justify;
+    }
 }

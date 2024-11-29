@@ -66,6 +66,7 @@ nav .right-nav .icon {
     border: 1px solid black;
     border-radius: 16px;
     padding: 16px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .card .image {
@@ -77,13 +78,19 @@ nav .right-nav .icon {
     max-width: 100%;
     border-radius: 12px;
     width: 300px;
-    height: 400px;
+    height: 300px;
 }
 
 .card .header h1 {
     font-size: 32px;
     margin: 0;
     margin-top: 8px;
+    text-align: center;
+}
+
+.card .content .slogan {
+    text-align: center;
+    font-style: italic;
 }
 
 .card table {
@@ -135,7 +142,17 @@ nav .right-nav .icon {
     border: 1px solid black;
     border-radius: 12px;
     padding: 16px;
-    max-width: 280px;
+    max-width: 230px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.personal .right .skill .frontend:hover {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 230px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #dadada;
 }
 
 .personal .right .skill img {
@@ -152,7 +169,17 @@ nav .right-nav .icon {
     border: 1px solid black;
     border-radius: 12px;
     padding: 16px;
-    max-width: 280px;
+    max-width: 230px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.personal .right .skill .backend:hover {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 230px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #dadada;
 }
 
 .personal .right .findme {
@@ -232,6 +259,13 @@ footer {
 
     .card {
         max-width: fit-content;
+    }
+
+    .card .image img {
+        max-width: 100%;
+        border-radius: 12px;
+        width: 300px;
+        height: 300px;
     }
 
     .personal .right h1, h2, .skill, .social {

@@ -110,20 +110,16 @@ nav .right-nav .icon {
         padding-inline: 16px;
         align-items: center;
     }
-
     nav .left-nav {
         gap: 20px;
         align-items: center;
     }
-
     nav .left-nav a img {
         height: 24px;
     }
-
     nav .right-nav a {
         display: none;
-    }   
-
+    }
     nav .right-nav .icon {
         display: block;
         background-color: black;
@@ -131,12 +127,13 @@ nav .right-nav .icon {
         align-items: center;
         justify-content: center;
     }
-
     nav .right-nav .icon:hover {
         background-color: black;
     }
-
     .material-symbols-outlined:hover {
         color: #d12038;
-    }    
+    }
+    .form-container {
+        max-width: fit-content;
+    }
 }
